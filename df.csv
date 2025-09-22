@@ -1,0 +1,82 @@
+PersonId,FirstName,LastName,DOB,Address1,City,State,Zip,Email,GuardianEmail,Address1_normalized,City_normalized,Email_normalized,GuardianEmail_normalized,AddressKey,DOBtest,Age,GroupID
+3001,Rowan,Moore,1993-08-23,1468 Main St.,Milton,PA,36896,rowan.moore@example.com,,1468 Main Street,MILTON,rowan.moore@example.com,,1468 Main StreetMILTONPA36896,1993-08-23,32.05201916495551,G-3001
+3002,Casey,Moore,1986-08-23, 1468 Main Street ,Milton,PA,36896,casey.moore@test.org,,1468 Main Street,MILTON,casey.moore@test.org,,1468 Main StreetMILTONPA36896,1986-08-23,39.05270362765229,G-3001
+3003,Morgan,Allen,1991-08-19,3468 Main St.,Milton,CA,87936,,,3468 Main Street,MILTON,,,3468 Main StreetMILTONCA87936,1991-08-19,34.064339493497606,G-3003
+3004,Owen,Lewis,1979-07-30,7867 Maple St,Burlington,UT,12550,owen.lewis@family.net,,7867 Maple Street,BURLINGTON,owen.lewis@family.net,,7867 Maple StreetBURLINGTONUT12550,1979-07-30,46.119096509240244,G-3004
+3005,Quinn,Lewis,1991-09-03,1448 Oak Street,Arlington,NJ,50993,quinn.lewis@demo.net,,1448 Oak Street,ARLINGTON,quinn.lewis@demo.net,,1448 Oak StreetARLINGTONNJ50993,1991-09-03,34.02327173169062,G-3005
+3006,Avery,Lewis,1995-09-15,4333 Maple Street,Fairview,NC,17411,,,4333 Maple Street,FAIRVIEW,,,4333 Maple StreetFAIRVIEWNC17411,1995-09-15,29.99041752224504,G-3006
+3007,Jordan,Lee,2004-08-15, 4333 Maple Street ,Fairview,NC,17411,jordan.lee@mail.com,,4333 Maple Street,FAIRVIEW,jordan.lee@mail.com,,4333 Maple StreetFAIRVIEWNC17411,2004-08-15,21.073237508555785,G-3006
+3008,Alex,Anderson,1994-08-07,8924 Hill St.,Burlington,TX,46736,,,8924 Hill Street,BURLINGTON,,,8924 Hill StreetBURLINGTONTX46736,1994-08-07,31.096509240246405,G-3008
+3009,Ethan,Harris,1987-10-21,3638 Oak St,Fairview,TN,92308,,,3638 Oak Street,FAIRVIEW,,,3638 Oak StreetFAIRVIEWTN92308,1987-10-21,37.89185489390828,G-3009
+3010,Mason,Harris,1992-11-02, 3638 Oak Street ,Fairview,TN,92308,mason.harris@mail.com,,3638 Oak Street,FAIRVIEW,mason.harris@mail.com,,3638 Oak StreetFAIRVIEWTN92308,1992-11-02,32.85694729637235,G-3009
+3011,Mia,Walker,1983-08-10,7064 Lake St,Madison,TN,66056,,,7064 Lake Street,MADISON,,,7064 Lake StreetMADISONTN66056,1983-08-10,42.08898015058179,G-3011
+3012,Avery,Walker,2012-10-11,7064 Lake Street,Madison,TN,66056,,,7064 Lake Street,MADISON,,,7064 Lake StreetMADISONTN66056,2012-10-11,12.917180013689254,G-3011
+3013,Owen,Smith,1986-08-08,4558 Main Street,Georgetown,NH,2030,owen.smith@example.com,,4558 Main Street,GEORGETOWN,owen.smith@example.com,,4558 Main StreetGEORGETOWNNH2030,1986-08-08,39.09377138945928,G-3013
+3014,Logan,Smith,2007-09-05, 4558 Main Street ,Georgetown,NH,2030,logan.smith@test.org,,4558 Main Street,GEORGETOWN,logan.smith@test.org,,4558 Main StreetGEORGETOWNNH2030,2007-09-05,18.017796030116358,G-3013
+3015,Ella,Davis,1987-09-24,4558 Main Street,Georgetown,NH,2030,ella.davis@demo.net,,4558 Main Street,GEORGETOWN,ella.davis@demo.net,,4558 Main StreetGEORGETOWNNH2030,1987-09-24,37.96577686516085,G-3013
+3016,Owen,Garcia,1972-07-29, 4878 Ridge Street ,Georgetown,MN,62257,owen.garcia@family.net,,4878 Ridge Street,GEORGETOWN,owen.garcia@family.net,,4878 Ridge StreetGEORGETOWNMN62257,1972-07-29,53.11978097193703,G-3016
+3017,Ella,Anderson,1994-10-15,4878 Ridge St.,Georgetown,MN,62257,,,4878 Ridge Street,GEORGETOWN,,,4878 Ridge StreetGEORGETOWNMN62257,1994-10-15,30.90759753593429,G-3016
+3018,Grace,Anderson,1989-10-26,4878 Ridge St.,Georgetown,MN,62257,grace.anderson@demo.net,,4878 Ridge Street,GEORGETOWN,grace.anderson@demo.net,,4878 Ridge StreetGEORGETOWNMN62257,1989-10-26,35.87679671457906,G-3016
+3019,Ethan,Lewis,1982-10-24,706 Cedar St.,Fairview,OH,94773,ethan.lewis@example.com,,706 Cedar Street,FAIRVIEW,ethan.lewis@example.com,,706 Cedar StreetFAIRVIEWOH94773,1982-10-24,42.8829568788501,G-3019
+3020,Taylor,Martinez,2012-07-17,8440 Lake St,Milton,CA,55646,,,8440 Lake Street,MILTON,,,8440 Lake StreetMILTONCA55646,2012-07-17,13.152635181382614,G-3020
+3021,Riley,Martinez,2000-09-11,8440 Lake St,Milton,CA,55646,,,8440 Lake Street,MILTON,,,8440 Lake StreetMILTONCA55646,2000-09-11,24.999315537303218,G-3020
+3022,Parker,Brown,1987-10-02,9435 Main St,Springfield,OR,85041,parker.brown@mail.com,,9435 Main Street,SPRINGFIELD,parker.brown@mail.com,,9435 Main StreetSPRINGFIELDOR85041,1987-10-02,37.94387405886379,G-3022
+3023,Mia,Brown,2004-08-07, 9435 Main Street ,Springfield,OR,85041,mia.brown@test.org,,9435 Main Street,SPRINGFIELD,mia.brown@test.org,,9435 Main StreetSPRINGFIELDOR85041,2004-08-07,21.09514031485284,G-3022
+3024,Olivia,Johnson,1987-09-18,2216 Elm St,Arlington,PA,94598,olivia.johnson@test.org,,2216 Elm Street,ARLINGTON,olivia.johnson@test.org,,2216 Elm StreetARLINGTONPA94598,1987-09-18,37.98220396988364,G-3024
+3025,Leo,Johnson,1992-09-25,2216 Elm St,Arlington,PA,94598,leo.johnson@test.org,,2216 Elm Street,ARLINGTON,leo.johnson@test.org,,2216 Elm StreetARLINGTONPA94598,1992-09-25,32.96098562628337,G-3024
+3026,Jordan,Johnson,1993-07-28, 2216 Elm Street ,Arlington,PA,94598,jordan.johnson@demo.net,,2216 Elm Street,ARLINGTON,jordan.johnson@demo.net,,2216 Elm StreetARLINGTONPA94598,1993-07-28,32.12320328542094,G-3024
+3027,Morgan,Walker,1989-07-26, 8888 Sunset Street ,Dayton,MN,71053,morgan.walker@demo.net,,8888 Sunset Street,DAYTON,morgan.walker@demo.net,,8888 Sunset StreetDAYTONMN71053,1989-07-26,36.12867898699521,G-3027
+3028,Reese,Thomas,1975-09-07,1035 Valley Street,Springfield,MN,76402,reese.thomas@example.com,,1035 Valley Street,SPRINGFIELD,reese.thomas@example.com,,1035 Valley StreetSPRINGFIELDMN76402,1975-09-07,50.012320328542096,G-3028
+3029,Taylor,Thomas,1999-10-27,1035 Valley St,Springfield,MN,76402,taylor.thomas@family.net,,1035 Valley Street,SPRINGFIELD,taylor.thomas@family.net,,1035 Valley StreetSPRINGFIELDMN76402,1999-10-27,25.87542778918549,G-3028
+3030,Quinn,Clark,1977-11-08,8809 Ridge St.,Greenville,CA,51824,quinn.clark@family.net,,8809 Ridge Street,GREENVILLE,quinn.clark@family.net,,8809 Ridge StreetGREENVILLECA51824,1977-11-08,47.841204654346335,G-3030
+3031,Owen,Jones,2011-08-18,8809 Ridge Street,Greenville,CA,51824,,quinn.martinez@test.org,8809 Ridge Street,GREENVILLE,,quinn.martinez@test.org,8809 Ridge StreetGREENVILLECA51824,2011-08-18,14.067077344284737,G-3030
+3032,Leo,Johnson,1992-08-21,1915 Sunset St.,Fairview,TX,4340,leo.johnson@mail.com,,1915 Sunset Street,FAIRVIEW,leo.johnson@mail.com,,1915 Sunset StreetFAIRVIEWTX4340,1992-08-21,33.05681040383299,G-3032
+3033,Leo,Johnson,2011-10-20,1915 Sunset Street,Fairview,TX,4340,,leo.johnson@demo.net,1915 Sunset Street,FAIRVIEW,,leo.johnson@demo.net,1915 Sunset StreetFAIRVIEWTX4340,2011-10-20,13.894592744695414,G-3032
+3034,Liam,Johnson,1975-11-10,4359 Main Street,Milton,NH,68619,liam.johnson@family.net,,4359 Main Street,MILTON,liam.johnson@family.net,,4359 Main StreetMILTONNH68619,1975-11-10,49.83709787816564,G-3034
+3035,Emma,Johnson,1987-11-01, 4359 Main Street ,Milton,NH,68619,emma.johnson@test.org,,4359 Main Street,MILTON,emma.johnson@test.org,,4359 Main StreetMILTONNH68619,1987-11-01,37.86173853524983,G-3034
+3036,Morgan,Jones,1987-08-07,2827 Pine Street,Madison,NC,95659,morgan.jones@mail.com,,2827 Pine Street,MADISON,morgan.jones@mail.com,,2827 Pine StreetMADISONNC95659,1987-08-07,38.09719370294319,G-3036
+3037,Henry,Lewis,1984-09-23,1151 Cedar Street,Dayton,NC,57406,,,1151 Cedar Street,DAYTON,,,1151 Cedar StreetDAYTONNC57406,1984-09-23,40.96646132785763,G-3037
+3038,Jack,Lewis,1991-09-14,1151 Cedar St,Dayton,NC,57406,jack.lewis@family.net,,1151 Cedar Street,DAYTON,jack.lewis@family.net,,1151 Cedar StreetDAYTONNC57406,1991-09-14,33.99315537303217,G-3037
+3039,Jack,Brown,1976-11-06,5593 Main St.,Milton,OR,98016,jack.brown@example.com,,5593 Main Street,MILTON,jack.brown@example.com,,5593 Main StreetMILTONOR98016,1976-11-06,48.84599589322382,G-3039
+3040,Morgan,Rodriguez,1989-08-12,5593 Main St.,Milton,OR,98016,morgan.rodriguez@test.org,,5593 Main Street,MILTON,morgan.rodriguez@test.org,,5593 Main StreetMILTONOR98016,1989-08-12,36.082135523613964,G-3039
+3041,Mia,Thomas,1980-07-13,1614 Lake St,Clinton,NC,20002,mia.thomas@example.com,,1614 Lake Street,CLINTON,mia.thomas@example.com,,1614 Lake StreetCLINTONNC20002,1980-07-13,45.163586584531146,G-3041
+3042,Grace,Wilson,1997-09-21,1614 Lake St,Clinton,NC,20002,grace.wilson@mail.com,,1614 Lake Street,CLINTON,grace.wilson@mail.com,,1614 Lake StreetCLINTONNC20002,1997-09-21,27.972621492128678,G-3041
+3043,Mia,Harris,1995-08-27, 4987 Maple Street ,Ashland,VA,26289,mia.harris@test.org,,4987 Maple Street,ASHLAND,mia.harris@test.org,,4987 Maple StreetASHLANDVA26289,1995-08-27,30.04243668720055,G-3043
+3044,Leo,Harris,1999-09-02,4987 Maple Street,Ashland,VA,26289,leo.harris@demo.net,,4987 Maple Street,ASHLAND,leo.harris@demo.net,,4987 Maple StreetASHLANDVA26289,1999-09-02,26.026009582477755,G-3043
+3045,Olivia,Harris,2014-10-07,4987 Maple Street,Ashland,VA,26289,olivia.harris@example.com,mia.harris+kids@family.net,4987 Maple Street,ASHLAND,olivia.harris@example.com,mia.harris@family.net,4987 Maple StreetASHLANDVA26289,2014-10-07,10.929500342231348,G-3043
+3046,Emma,Miller,1996-09-09,7063 Pine St,Milton,TX,15064,emma.miller@demo.net,,7063 Pine Street,MILTON,emma.miller@demo.net,,7063 Pine StreetMILTONTX15064,1996-09-09,29.00479123887748,G-3046
+3047,Parker,Young,2016-08-07,7063 Pine St,Milton,TX,15064,,emma.young@test.org,7063 Pine Street,MILTON,,emma.young@test.org,7063 Pine StreetMILTONTX15064,2016-08-07,9.095140314852841,G-3046
+3048,Casey,Garcia,1979-09-26,1165 Main St,Franklin,NC,76276,casey.garcia@family.net,,1165 Main Street,FRANKLIN,casey.garcia@family.net,,1165 Main StreetFRANKLINNC76276,1979-09-26,45.960301163586585,G-3048
+3049,Jordan,Harris,1980-08-19, 3467 Sunset Street ,Arlington,PA,78573,jordan.harris@demo.net,,3467 Sunset Street,ARLINGTON,jordan.harris@demo.net,,3467 Sunset StreetARLINGTONPA78573,1980-08-19,45.06228610540725,G-3049
+3050,Alex,Harris,2010-08-19, 3467 Sunset Street ,Arlington,PA,78573,,jordan.harris+kids@mail.com,3467 Sunset Street,ARLINGTON,,jordan.harris@mail.com,3467 Sunset StreetARLINGTONPA78573,2010-08-19,15.063655030800822,G-3049
+3051,Owen,Harris,1987-08-28,3467 Sunset Street,Arlington,PA,78573,,,3467 Sunset Street,ARLINGTON,,,3467 Sunset StreetARLINGTONPA78573,1987-08-28,38.039698836413415,G-3049
+3052,Morgan,Lee,2005-07-14,4513 Cedar St,Clinton,AL,63179,morgan.lee@example.com,,4513 Cedar Street,CLINTON,morgan.lee@example.com,,4513 Cedar StreetCLINTONAL63179,2005-07-14,20.161533196440793,G-3052
+3053,Wyatt,Rodriguez,1987-11-01,2077 Valley St.,Madison,MA,51051,,,2077 Valley Street,MADISON,,,2077 Valley StreetMADISONMA51051,1987-11-01,37.86173853524983,G-3053
+3054,Logan,Rodriguez,2005-11-01,2077 Valley Street,Madison,MA,51051,logan.rodriguez@example.com,,2077 Valley Street,MADISON,logan.rodriguez@example.com,,2077 Valley StreetMADISONMA51051,2005-11-01,19.860369609856264,G-3053
+3055,Morgan,Rodriguez,1998-08-30,2077 Valley Street,Madison,MA,51051,morgan.rodriguez@example.com,,2077 Valley Street,MADISON,morgan.rodriguez@example.com,,2077 Valley StreetMADISONMA51051,1998-08-30,27.033538672142367,G-3053
+3056,Jordan,Jones,1986-09-05,4524 Main Street,Franklin,NY,16403,jordan.jones@demo.net,,4524 Main Street,FRANKLIN,jordan.jones@demo.net,,4524 Main StreetFRANKLINNY16403,1986-09-05,39.017111567419576,G-3056
+3057,Emma,Brown,2009-11-10,4524 Main Street,Franklin,NY,16403,,,4524 Main Street,FRANKLIN,,,4524 Main StreetFRANKLINNY16403,2009-11-10,15.835728952772074,G-3056
+3058,Noah,Wilson,1998-10-16,110 Sunset St,Arlington,OH,37203,noah.wilson@test.org,,110 Sunset Street,ARLINGTON,noah.wilson@test.org,,110 Sunset StreetARLINGTONOH37203,1998-10-16,26.90485968514716,G-3058
+3059,Ethan,Walker,2004-09-18,110 Sunset St.,Arlington,OH,37203,ethan.walker@example.com,,110 Sunset Street,ARLINGTON,ethan.walker@example.com,,110 Sunset StreetARLINGTONOH37203,2004-09-18,20.980150581793293,G-3058
+3060,Jordan,Wilson,1994-08-15,110 Sunset St.,Arlington,OH,37203,jordan.wilson@mail.com,,110 Sunset Street,ARLINGTON,jordan.wilson@mail.com,,110 Sunset StreetARLINGTONOH37203,1994-08-15,31.07460643394935,G-3058
+3061,Henry,Moore,1998-09-23,8491 Maple Street,Greenville,FL,74818,,,8491 Maple Street,GREENVILLE,,,8491 Maple StreetGREENVILLEFL74818,1998-09-23,26.967830253251197,G-3061
+3062,Jordan,Thomas,1996-08-03,626 Elm St.,Franklin,TN,16941,jordan.thomas@test.org,,626 Elm Street,FRANKLIN,jordan.thomas@test.org,,626 Elm StreetFRANKLINTN16941,1996-08-03,29.10609171800137,G-3062
+3063,Leo,Thomas,1993-11-07, 626 Elm Street ,Franklin,TN,16941,leo.thomas@family.net,,626 Elm Street,FRANKLIN,leo.thomas@family.net,,626 Elm StreetFRANKLINTN16941,1993-11-07,31.84394250513347,G-3062
+3064,Mason,Jones,1975-07-29, 3920 Sunset Street ,Greenville,CA,39214,mason.jones@demo.net,,3920 Sunset Street,GREENVILLE,mason.jones@demo.net,,3920 Sunset StreetGREENVILLECA39214,1975-07-29,50.12183436002738,G-3064
+3065,Jack,Jones,1996-08-20,3920 Sunset Street,Greenville,CA,39214,jack.jones@family.net,,3920 Sunset Street,GREENVILLE,jack.jones@family.net,,3920 Sunset StreetGREENVILLECA39214,1996-08-20,29.059548254620122,G-3064
+3066,Ella,Jones,1998-10-22,3920 Sunset Street,Greenville,CA,39214,ella.jones@test.org,,3920 Sunset Street,GREENVILLE,ella.jones@test.org,,3920 Sunset StreetGREENVILLECA39214,1998-10-22,26.888432580424368,G-3064
+3067,Ella,Martinez,1999-08-03,366 Elm Street,Milton,IL,9690,,,366 Elm Street,MILTON,,,366 Elm StreetMILTONIL9690,1999-08-03,26.10814510609172,G-3067
+3068,Taylor,Martinez,2012-09-28,366 Elm Street,Milton,IL,9690,taylor.martinez@family.net,ella.martinez+kids@family.net,366 Elm Street,MILTON,taylor.martinez@family.net,ella.martinez@family.net,366 Elm StreetMILTONIL9690,2012-09-28,12.952772073921972,G-3067
+3069,Henry,Jones,1993-10-18, 2210 Sunset Street ,Greenville,IL,84724,henry.jones@demo.net,,2210 Sunset Street,GREENVILLE,henry.jones@demo.net,,2210 Sunset StreetGREENVILLEIL84724,1993-10-18,31.89869952087611,G-3069
+3070,Mia,Jones,2007-08-17,2210 Sunset St,Greenville,IL,84724,mia.jones@demo.net,,2210 Sunset Street,GREENVILLE,mia.jones@demo.net,,2210 Sunset StreetGREENVILLEIL84724,2007-08-17,18.069815195071868,G-3069
+3071,Alex,Thomas,1975-10-31,9860 Lake Street,Madison,MA,11936,alex.thomas@family.net,,9860 Lake Street,MADISON,alex.thomas@family.net,,9860 Lake StreetMADISONMA11936,1975-10-31,49.86447638603696,G-3071
+3072,Morgan,Thomas,1988-08-09, 9860 Lake Street ,Madison,MA,11936,morgan.thomas@test.org,,9860 Lake Street,MADISON,morgan.thomas@test.org,,9860 Lake StreetMADISONMA11936,1988-08-09,37.08966461327858,G-3071
+3073,Lucas,Thomas,2002-08-14,9860 Lake St.,Madison,MA,11936,lucas.thomas@mail.com,,9860 Lake Street,MADISON,lucas.thomas@mail.com,,9860 Lake StreetMADISONMA11936,2002-08-14,23.077344284736483,G-3071
+3074,Avery,Thomas,1971-11-09,2563 Ridge St,Arlington,GA,46202,avery.thomas@demo.net,,2563 Ridge Street,ARLINGTON,avery.thomas@demo.net,,2563 Ridge StreetARLINGTONGA46202,1971-11-09,53.83983572895277,G-3074
+3075,Ethan,Thomas,2018-09-14,2563 Ridge St,Arlington,GA,46202,ethan.thomas@mail.com,avery.thomas+kids@mail.com,2563 Ridge Street,ARLINGTON,ethan.thomas@mail.com,avery.thomas@mail.com,2563 Ridge StreetARLINGTONGA46202,2018-09-14,6.992470910335387,G-3074
+3076,Liam,Thomas,2004-09-11,2563 Ridge St.,Arlington,GA,46202,liam.thomas@example.com,,2563 Ridge Street,ARLINGTON,liam.thomas@example.com,,2563 Ridge StreetARLINGTONGA46202,2004-09-11,20.999315537303218,G-3074
+3077,Grace,Smith,1987-08-15,3953 Lake Street,Clinton,IL,83358,,,3953 Lake Street,CLINTON,,,3953 Lake StreetCLINTONIL83358,1987-08-15,38.07529089664613,G-3077
+3078,Lucas,Smith,2012-10-07,3953 Lake Street,Clinton,IL,83358,,grace.smith+kids@mail.com,3953 Lake Street,CLINTON,,grace.smith@mail.com,3953 Lake StreetCLINTONIL83358,2012-10-07,12.928131416837783,G-3077
+3079,Jack,Smith,1996-10-16,3953 Lake St,Clinton,IL,83358,jack.smith@family.net,,3953 Lake Street,CLINTON,jack.smith@family.net,,3953 Lake StreetCLINTONIL83358,1996-10-16,28.903490759753595,G-3077
+3080,Alex,Lewis,1980-10-26,5707 Maple St,Greenville,CA,49561,alex.lewis@family.net,,5707 Maple Street,GREENVILLE,alex.lewis@family.net,,5707 Maple StreetGREENVILLECA49561,1980-10-26,44.876112251882276,G-3080
+3081,Owen,Lewis,1993-07-27,5707 Maple St,Greenville,CA,49561,owen.lewis@demo.net,,5707 Maple Street,GREENVILLE,owen.lewis@demo.net,,5707 Maple StreetGREENVILLECA49561,1993-07-27,32.12594113620808,G-3080

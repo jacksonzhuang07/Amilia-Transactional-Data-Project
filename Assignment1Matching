@@ -1,0 +1,72 @@
+import pandas as pd
+
+def assignment_1_data_migration(excel_file):
+    """
+    Performs data migration for Assignment 1.
+
+    Args:
+        excel_file (str): The path to the Assignment 1 Excel file.
+    """
+    # Load data from the Excel file
+    try:
+        tokens_df = pd.read_excel(excel_file, sheet_name='Tokens')
+        draftexport_df = pd.read_excel(excel_file, sheet_name='draftExport')
+        memberships_df = pd.read_excel(excel_file, sheet_name='Memberships')
+        users_df = pd.read_excel(excel_file, sheet_name='Users')
+    except FileNotFoundError:
+        print(f"Error: The file '{excel_file}' was not found.")
+        return
+
+    # Normalize Masked Last 4 Digits for matching
+    # The prompt specifies to subtract 1 from the final digit in draftExport
+    # The example provided is 1234 in Tokens and 1235 in draftExport [cite: 30]
+    # We will need to handle this with string manipulation.
+    def normalize_masked_digits(masked_str):
+        if pd.isna(masked_str) or not isinstance(masked_str, (int, str)):
+            return None
+        masked_str = str(masked_str)
+        if len(masked_str) >= 4:
+            # Get the last digit
+            last_digit = int(masked_str[-1])
+            # Subtract 1 and handle wrapping around from 0 to 9
+            normalized_digit = (last_digit - 1 + 10) % 10
+            # Reconstruct the string
+            return masked_str[:-1] + str(normalized_digit)
+        return None
+
+    draftexport_df['Normalized_Masked'] = draftexport_df['Masked Last 4 Digits'].apply(normalize_masked_digits)
+    tokens_df['Normalized_Masked'] = tokens_df['Masked Last 4 Digits'].astype(str) # Convert to string for consistency
+
+    # Merge draftExport and Tokens
+    # Join on the normalized masked digits and the card type
+    # You would need to determine the correct join key based on the actual data
+    # (e.g., 'CardType' or 'Card_Type')
+    merged_tokens = pd.merge(draftexport_df, tokens_df,
+                             left_on=['Normalized_Masked', 'Card_Type'],
+                             right_on=['Normalized_Masked', 'Card_Type'],
+                             how='left')
+
+    # Now, link Memberships to the merged data
+    # This requires a common key, such as a User ID, which is not explicitly stated
+    # in the document snippets but is a logical assumption based on the data context
+    # (e.g., Memberships and draftExport both likely contain a 'UserId' or 'PersonId')
+    final_merged_df = pd.merge(memberships_df, merged_tokens,
+                               left_on='UserId',  # Placeholder for the correct join key
+                               right_on='UserId', # Placeholder for the correct join key
+                               how='left')
+
+    # Populate the Payment Link Id
+    memberships_df['Payment Link Id'] = final_merged_df['profileid'] [cite: 21]
+
+    # Save the updated Memberships tab
+    with pd.ExcelWriter('Assignment 1_Completed.xlsx', engine='xlsxwriter') as writer:
+        memberships_df.to_excel(writer, sheet_name='Memberships', index=False)
+        # You may want to copy over the other tabs to keep the file intact
+        tokens_df.to_excel(writer, sheet_name='Tokens', index=False)
+        draftexport_df.to_excel(writer, sheet_name='draftExport', index=False)
+        users_df.to_excel(writer, sheet_name='Users', index=False)
+
+    print("Assignment 1 completed. Updated 'Memberships' tab saved to 'Assignment 1_Completed.xlsx'.")
+
+# Example usage:
+# assignment_1_data_migration('Assignment 1.xlsx')
